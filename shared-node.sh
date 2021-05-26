@@ -22,7 +22,7 @@ touch node-restarted.log
 
 bash -c 'echo "while :
 do
-./idena-go --config=config.json --apikey=123
+./idena-go --config=config.json --apikey=3441
 date >> node-restarted.log
 done" > start'
 chmod +x start
@@ -34,9 +34,9 @@ npm i -g pm2
 
 cd idena-node-proxy
 
-bash -c 'echo "AVAILABLE_KEYS=[\"api1\",\"api2\"]
+bash -c 'echo "AVAILABLE_KEYS=[\"api1\",\"api2\"],\"api3\"],\"api4\"],\"api5\"],\"api6\"],\"api7\"],\"api8\"],\"api9\"],\"api10\"],\"api11\"],\"api12\"],\"api13\"],\"api14\"],\"api15\"],\"api16\"],\"api17\"],\"api18\"],\"api19\"],\"api20\"]
 IDENA_URL=\"http://localhost:9009\"
-IDENA_KEY=\"123\"
+IDENA_KEY=\"3441\"
 PORT=80
 GOD_API_KEY=\"test\"
 REMOTE_KEYS_ENABLED=0" > .env'
